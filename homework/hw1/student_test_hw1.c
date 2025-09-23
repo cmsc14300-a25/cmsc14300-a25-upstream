@@ -23,10 +23,8 @@ void do_add2_test(int x, int y, int expected, char *test_name) {
   snprintf(err_msg, ERR_MSG_LEN - 1,
            ("\n  Parameters used in failed test: add_two_num(%d, %d)\n"
             "\n     Actual return value: %d"
-            "\n     Expected return value: %d"
-            "\n  The filter to run this specific test run:"
-            " ./student_test_hw1 --filter \"add_two_nums/%s\""),
-           x, y, actual, expected, test_name);
+            "\n     Expected return value: %d"),
+           x, y, actual, expected);
 
   cr_assert_eq(actual, expected, ASSERT_FMT_STR, err_msg);
 };
