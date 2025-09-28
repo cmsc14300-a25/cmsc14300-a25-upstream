@@ -22,6 +22,8 @@ YOUR Collaboration ATTESTATION HERE
  and/or course materials, please type: I did not use any additional
  resources on this assignment.
 
+ When in doubt, add a citation!
+
 YOUR Sources Used ATTESTATION HERE.
 
 **Generative AI** To confirm that you did not use Generative AI tools
