@@ -1,0 +1,9 @@
+5
+red,blue,yellow,,
+yellow,,,,
+blue,green,red,,
+black,blue,green,yellow,orange
+red,,blue,,white
+
+
+

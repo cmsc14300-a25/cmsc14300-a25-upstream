@@ -1,0 +1,6 @@
+5
+orange,,,,
+,yellow,,,
+,,light blue,,
+,,,pink,
+,,,,maroon
