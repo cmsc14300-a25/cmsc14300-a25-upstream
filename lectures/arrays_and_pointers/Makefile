@@ -2,7 +2,7 @@ CFLAGS = -g -Wall -O0 --std=c11
 LDLIBS=
 LDFLAGS=-lm
 CC=clang
-EXECUTABLES= array_bounds array_pointer square 
+EXECUTABLES= array_bounds array_pointer square strings array_of_strings string_length
 
 all: $(EXECUTABLES)
 

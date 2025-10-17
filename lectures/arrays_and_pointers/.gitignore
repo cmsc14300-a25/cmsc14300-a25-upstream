@@ -1,4 +1,7 @@
 array_bounds
 array_pointer
 square
+strings
+array_of_strings
+string_length
 *.o
