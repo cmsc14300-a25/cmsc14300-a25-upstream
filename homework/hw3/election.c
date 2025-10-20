@@ -82,7 +82,7 @@ void run_election(char *ballot_filename, char *candidates_filename) {
     int winner = run_round(&info);
     print_round_results(num_rounds, winner, info);
 
-    if (winner < 0) {
+    if (winner >= 0) {
       break;
     } else {
       // Drop the candidate in the last spot for the next round
