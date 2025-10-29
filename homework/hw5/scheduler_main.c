@@ -72,6 +72,10 @@ int main(int argc, char* argv[]) {
   }
 
   task_t** tasks = read_tasks_from_file(filename, &num_tasks);
+  if (tasks == NULL) {
+    if (filename != NULL) { free(filename); }
+    return 1; 
+  }
   task_manager_t* tm = tm_create();
 
   for (int i = 0; i < num_tasks; i++) {
