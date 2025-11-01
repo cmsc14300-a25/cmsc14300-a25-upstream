@@ -32,7 +32,7 @@ bool parse_arguments(int argc, char* argv[], char** filename,
   *max_cycles = 1;
   // duplicate to make the process of freeing the name
   // easier later.
-  *filename = strdup("sample_tasks/one_task.txt");
+  *filename = NULL;
 
   // Parse the arguments
   while ((opt = getopt(argc, argv, "c:f:t:h")) != -1) {
@@ -54,6 +54,9 @@ bool parse_arguments(int argc, char* argv[], char** filename,
         fprintf(stderr, usage, argv[0]);
         return false;
     }
+  }
+  if (*filename == NULL) {
+    *filename = strdup("sample_tasks/one_task.txt");
   }
   return true;
 }
@@ -97,5 +100,4 @@ int main(int argc, char* argv[]) {
   // The previous function call will free the tasks, but not the task array
   free(tasks);
   free(filename);
-
 }
