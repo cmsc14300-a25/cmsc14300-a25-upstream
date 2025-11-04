@@ -1,5 +1,5 @@
 OBJECTS = 
-CFLAGS = -g -Wall --std=c11
+CFLAGS = -g -Wall --std=c11 -D _DEFAULT_SOURCE
 LDLIBS= -l criterion -lm
 CC=clang
 
