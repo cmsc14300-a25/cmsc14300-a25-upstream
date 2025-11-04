@@ -15,8 +15,8 @@
 #define MULTIPLIER 2
 
 struct growable_array {
-  unsigned int next_open_slot;
-  unsigned int num_slots;
+  unsigned int num_vals;
+  unsigned int capacity;
   void** data;
 };
 
@@ -56,7 +56,7 @@ void garray_append(garray_t *garray, void *val) {
 void *garray_pop(garray_t *garray) {
   assert(garray != NULL);
   // there is at least one element in the array
-  assert(garray->next_open_slot > 0);
+  assert(garray->num_vals > 0);
 
   // TODO: complete this function and replace the return
   // value with a suitable value
