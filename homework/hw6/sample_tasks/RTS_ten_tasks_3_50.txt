@@ -1,0 +1,11 @@
+RTS: Running tid: 2  original -- priority: 1  running time: 40  Task completed
+RTS: Running tid: 3  original -- priority: 1  running time: 50  Task completed
+RTS: Running tid: 10  original -- priority: 1  running time: 25  Task completed
+RTS: Running tid: 11  original -- priority: 3  running time: 30  Task completed
+RTS: Running tid: 14  original -- priority: 3  running time: 20  Task completed
+RTS: Running tid: 15  original -- priority: 3  running time: 50  Task completed
+RTS: Running tid: 12  original -- priority: 5  running time: 35  Task completed
+RTS: Running tid: 18  original -- priority: 5  running time: 60  new -- priority: 0. running time: 10
+RTS: Running tid: 1  original -- priority: 6  running time: 10  Task completed
+RTS: Running tid: 13  original -- priority: 6  running time: 40  Task completed
+RTS: Running tid: 18  original -- priority: 0  running time: 10  Task completed

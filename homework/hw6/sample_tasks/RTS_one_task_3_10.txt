@@ -1,0 +1,3 @@
+RTS: Running tid: 10  original -- priority: 15  running time: 25  new -- priority: 2. running time: 15
+RTS: Running tid: 10  original -- priority: 2  running time: 15  new -- priority: 5. running time: 5
+RTS: Running tid: 10  original -- priority: 5  running time: 5  Task completed

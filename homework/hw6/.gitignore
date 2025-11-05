@@ -1,0 +1,7 @@
+simple_test_task_manager
+scheduler_main
+simple_test_task_pq
+check_task_extra
+core*
+vgcore*
+*dSYM/*
