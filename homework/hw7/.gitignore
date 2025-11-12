@@ -1,0 +1,7 @@
+simple_test_ballot
+simple_test_precinct
+simple_test_precinct_map
+voter_file
+core*
+vgcore*
+voter_file_0_precincts/*
