@@ -76,13 +76,3 @@ void garray_set_val( garray_t *garray, unsigned int idx, void *val);
  */
 void garray_free( garray_t *garray);
 
-
-void garray_print(garray_t *garray, void (*print_fn)(void *));
-
-void garray_apply_to_element(garray_t *garray, void *(*element_fn)(void *));
-
-void garray_free_with_elements(garray_t *garray, void (*element_free_fn)(void *));
-
-garray_t* garray_map(garray_t* garray, 
-                     void* (*element_fn)(void*, void*),
-                     void* extra_arg);
