@@ -49,5 +49,12 @@ int main (int argc, const char **argv) {
 
   printf("Success!\n");
 
+    // free up the matrix and the result
+  for (unsigned int i = 0; i < grid_width; i++) {
+    free(matrix[i]);
+  }
+  free(matrix);
+  free(tot);
+
   return 0;
 }
