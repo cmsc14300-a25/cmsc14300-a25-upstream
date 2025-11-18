@@ -114,6 +114,7 @@ void foreach() {
   garray_t *empty = mk_garray(2, NULL);
   garray_foreach(empty, add_one_in_place);
   assert(garray_get_length(empty) == 0);
+  garray_free(empty);
 
   /* test one element growable array with foreach */
   garray_t *one = mk_garray(2, NULL);
@@ -123,6 +124,7 @@ void foreach() {
   assert(garray_get_length(one) == 1);
   int extracted_val = *((int *) garray_get_val(one, 0));
   assert(extracted_val == 11);
+  garray_free(one);
 
 
   /* test foreach with a growable value with multiple values */
