@@ -1,0 +1,6 @@
+upper_west_side,red,blue,yellow
+upper_west_side,blue,yellow
+upper_west_side,yellow,red
+upper_west_side,yellow,blue,red
+upper_west_side,red,blue,yellow
+upper_west_side,yellow,blue

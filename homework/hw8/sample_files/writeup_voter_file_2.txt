@@ -1,0 +1,6 @@
+astoria,red,blue,yellow
+astoria,blue,yellow
+astoria,yellow,red
+astoria,yellow,blue,red
+astoria,red,blue,yellow
+astoria,green,red,blue
