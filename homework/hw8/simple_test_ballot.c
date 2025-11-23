@@ -58,4 +58,6 @@ int main() {
     free_ballot(b);
     free(ballot_str);
   }
+
+  free_candidates(cands);
 }
