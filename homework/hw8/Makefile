@@ -15,7 +15,7 @@ simple_test_candidates: simple_test_candidates.c candidates.c util.c
 
 simple_test_ballot: simple_test_ballot.c ballot.c candidates.c util.c 
 
-simple_test_precinct: ballot.c precinct.c growable_array.c candidates.c util.c election.c simple_test_precinct.c
+simple_test_precinct: ballot.c precinct.c growable_array.c candidates.c util.c simple_test_precinct.c
 
 election_main: ballot.c precinct.c precinct_map.c voter_file.c candidates.c util.c election.c growable_array.c record_election_results.c election_main.c
 
